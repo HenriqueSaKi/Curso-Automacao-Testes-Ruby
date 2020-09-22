@@ -1,0 +1,6 @@
+source 'http://rubygems.org'
+
+gem 'cucumber'
+gem 'rspec'
+
+#Acessa a pasta pelo prompt e envia o comando 'bundle install' para instalar as gems e suas dependências
