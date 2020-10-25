@@ -1,0 +1,15 @@
+---
+
+default: --profile progress -p producao -p chrome_headless -p html
+pretty: --format pretty #Apresenta toda a funcionalidade do sistema
+progress: --format progress #Apresenta apenas '..', recomendado para ambientes CI
+homolog: AMBIENTE=homolog #Declarando ambiente de homologação
+producao: AMBIENTE=producao #Declarando ambiente de produção
+chrome: BROWSER=chrome
+chrome_headless: BROWSER=chrome_headless
+firefox: BROWSER=firefox
+firefox_headless: BROWSER=firefox_headless
+# safari: BROWSER=safari
+# edge: BROWSER=edge
+# poltergeist: BROWSER=poltergeist
+html: --format html --out=reports/relatorio.html
